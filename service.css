@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root{
+    --primary:rgb(255, 145, 0);
+    --black:black;
+     
+}
+
+.wrapper{
+    max-width: 1680px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+.a-center{
+    align-items: center;
+}
+.gap40{
+    gap: 40px;
+}
+/* ------------header-section--- */
+
+header{
+    background-color: rgb(13, 13, 66);
+width: 100%;
+    padding: 20px 0;
+}
+
+a , .logo{
+    color: white;
+    
+}
+/*-------hero section--*/
+
+/*-------hero section--*/
+.herosection img{
+    width: 100%;
+    height: 550px;
+    
+    }
+    .para {
+        position: absolute;
+        font-family: Poppins;
+    font-size: 30px;
+    line-height: 90px;
+    text-align: center;
+    width: 579px;
+    color:black;
+    top: 300.46px;
+    left: 400px;
+    }
+    .serherosection{
+        padding: 60px;
+        margin-left: 4%;
+    }
+    .hero1{
+        margin-left: 6%;
+    }
+    .leftimg{
+        position: absolute;
+        margin-left: 55%;
+      top: 119%;
+     box-shadow: black;
+     border: 1px solid white;
+padding: 10px;
+    }
+    .img1{
+
+position: absolute;
+        font-size: 14px;
+        margin-left: 60%;
+        top: 112%;
+       box-shadow: black;
+       border: 1px solid white;
+    
+    }
+
+
+    .leftul{
+        position: absolute;
+       margin-left: 65%;
+        top:190% ;
+        box-shadow: black;
+        border: 1px solid white;
+   padding: 10px;
+
+    }
+    .leftul1{
+        position: absolute;
+        margin-left: 65%;
+         top:320% ;
+         box-shadow: black;
+         border: 1px solid white;
+    padding: 10px;
+    }
+    
+    .leftul3{
+        position: absolute;
+       background-color: black;
+       color: antiquewhite;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+      border-radius: 10px;
+      margin-left: 55%;
+      top:230% ;
+    }
+    .fromm {
+        margin-left: 9%;
+       top: 350%; /* Adjust this value to move the element lower */
+        position: absolute; /* Ensure that position is set to absolute if you want the 'bottom' property to take effect */
+    }
+     /*--footer strat---*/
+     .herosection img{
+        width: 100%;
+        height: 550px;
+        
+        }
+        .h11{
+position: absolute;
+padding: 30px;
+        }
+  .clinecard{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    gap: 90px;
+  padding: 40px 50px;
+    text-align: center;
+    font-family: arial;
+    list-style: circle;
+    line-height: 30px;
+ 
+  }
+  .imageheading3{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color:black;
+    font-size: 30px;
+  
+  }
+  .subscribe{
+    background-color: white;
+    color: black;
+        text-align: center;
+        border-radius: 100px;
+        cursor: pointer;
+        width: 350px;
+        height: 50px;
+        justify-content: space-between;
+    top: 100%;
+  }
+  .padding{
+    padding: 60px 20px;
+
+  }
+  
+  .li{
+  color: #000;
+  padding-top: 20px;
+ padding-left: 30px;
+  }
+  .end {
+    text-align: center;
+    background-color: #000;
+    color: #ccc;
+   padding: 60px 30px;
+   margin: 10px;
+  }
+   /*--footer end---*/
